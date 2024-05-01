@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/IMG_3257.png"
+    />
+    <!-- favicon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Site google fonts link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- link to css file -->
+    <title>Frontend Queens landing page</title>
+  </head>
+  <body>
+    <!-- Hero section starts here -->
+    <section class="hero">
+      <header>
+        <a href="index.html"
+          ><img src="images/logo.svg" alt="Sunnyside’s logo"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <img
+          src="images/icon-hamburger.svg"
+          alt="hamburger"
+          class="mobile-menu"
+          id="menu"
+        />
+      </header>
+      <div class="header-text">
+        <h1>Welcome to Frontend Queens</h1>
+        <img src="images/icon-arrow-down.svg" alt="icon arrow down" />
+      </div>
+    </section>
+
+    <!-- Mobile Navigation starts here -->
+    <div class="mobile-nav" id="mobileNav">
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Features section starts here -->
+    <section class="features">
+      <article>
+        <div class="left-col">
+          <div class="left-col-text">
+            <h2>Supporting your journey!</h2>
+            <p>
+              Our missions is to empower and support women in frontend
+              development by fostering an inclusive community where they can
+              excel in their careers.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+
+        <div class="right-col">
+          <picture>
+            <source
+              media="(max-width: 375px)"
+              srcset="images/mobile/hands-circle-mobile.png"
+            />
+            <img
+              src="images/desktop/hands-circle-desktop.png"
+              alt="hand circle image"
+            />
+          </picture>
+        </div>
+      </article>
+
+      <article>
+        <div class="right-col">
+          <picture>
+            <source
+              media="(min-width: 280px)"
+              srcset="images/mobile/growth.png"
+            />
+            <img src="images/desktop/growth.png" alt="carrer growth image" />
+          </picture>
+        </div>
+        <div class="left-col">
+          <div class="left-col-text">
+            <h2>Stand out: develop your skills, empower others</h2>
+            <p>
+              We aim to provide a space for connection, collaboration, and
+              knowledge-sharing, promoting mentorship and continuous learning.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="left-col">
+          <div class="left-col-text">
+            <h3>Resources</h3>
+            <p>
+              Boost your technical expertise with coding challenges, insightful
+              events, and comprehensive tutorials.
+            </p>
+          </div>
+        </div>
+        <div class="left-col">
+          <div class="left-col-text">
+            <h3>Volunteer opportunities</h3>
+            <p>
+              Join our vibrant online community as a volunteer. Together, let's
+              break barriers and build a more inclusive tech industry!
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Testimonials-->
+    <section class="testimonials">
+      <h3>Client testimonials</h3>
+      <div class="testimonial-row">
+        <div class="testimonial-col">
+          <img src="images/image-emily.jpg" alt="Emily R." />
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <div class="client-name">
+            <h4>Emily R.</h4>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/image-thomas.jpg" alt="Thomas S." />
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <div class="client-name">
+            <h4>Thomas S.</h4>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/image-jennie.jpg" alt="Jennie F." />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <div class="client-name">
+            <h4>Jennie F.</h4>
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Picture Gallery starts here -->
+    <div class="gallery">
+      <picture>
+        <source
+          media="(max-width:"
+          375px)
+          srcset="images/mobile/image-gallery-milkbottles.jpg"
+        />
+        <img
+          src="images/desktop/image-gallery-milkbottles.jpg"
+          alt="milk bottle"
+        />
+      </picture>
+      <picture>
+        <source
+          media="max-width: 375px"
+          srcset="images/mobile/image-gallery-orange.jpg"
+        />
+        <img src="images/desktop/image-gallery-orange.jpg" alt="orange" />
+      </picture>
+      <picture>
+        <source
+          media="max-width: 375px"
+          srcset="images/mobile/image-gallery-cone.jpg"
+        />
+        <img src="images/desktop/image-gallery-cone.jpg" alt="ice cream cone" />
+      </picture>
+      <picture>
+        <source
+          media="(max-width:"
+          375px)
+          srcset="images/mobile/image-gallery-sugarcubes.jpg"
+        />
+        <img
+          src="images/desktop/image-gallery-sugarcubes.jpg"
+          alt="sugar cubes"
+        />
+      </picture>
+    </div>
+
+    <!-- Footer starts here -->
+    <footer>
+      <nav>
+        <a href="#"><img src="images/logo.svg" alt="Sunnyside’s logo" /></a>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+
+      <ul>
+        <li>
+          <a href="#"
+            ><img src="images/icon-facebook.svg" alt="facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/icon-instagram.svg" alt="instagram icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/icon-twitter.svg" alt="twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/icon-pinterest.svg" alt="pinterest icon"
+          /></a>
+        </li>
+      </ul>
+
+      <div class="attribution">
+        <p>© Copyright 2024 by Frontend Queens. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- link to js file -->
+  </body>
+</html>
